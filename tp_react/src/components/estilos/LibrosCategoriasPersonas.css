@@ -1,0 +1,127 @@
+.libro, .persona, .categoria{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height:86%;
+    width: 100%;
+    padding: 1%;
+    background-color:white ;
+    box-sizing: border-box;
+}
+
+.tituloListado{
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.btn{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    border: 1px solid black;
+    height: 29px;
+    font-size: 14px;
+    margin-top:4px;    
+}
+
+.tituloItem{
+    color:#3C4657;    
+    font-size:calc(1px + 1rem) ;
+    text-align: center;
+}
+
+
+.grupoBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+.GrupoBtn{
+        display:flex;
+        flex-direction:column;
+}
+
+
+.Btn {
+        height:35px;
+        background-color:wheat;
+        border-radius:5px;
+        font-size:16px;
+        margin-top:30px;
+}
+
+.BtnForm{
+            width:85px;
+            height:50px;
+            
+            border-radius:5px;
+            background-color:rgb(6, 118, 255);
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    color:black;
+}
+
+.renglon{
+    padding-left:10px;    
+    width:18% ;   
+}
+
+.renglonNro{
+    text-align: center;
+    width:5% ; 
+   
+}
+
+.renglonBtn{  
+    color: black;
+    text-align: center;  
+}
+
+.renglonPresta{
+    padding-left:10px;    
+    width:30% ;   
+}
+
+
+.renglonLibrosListado{
+    text-align: center;
+    column-width: auto;
+}
+
+.modifBtn{  
+    color: white;
+    text-align: center;  
+    border-radius: 5px; 
+
+}
+
+.eliminaBtn{  
+    text-align: center;  
+    border-radius: 5px; 
+}
+
+.prestaInput {
+    margin-left:300px;
+}
+
+h5{
+    margin-left:500px;
+}
+
+.modifH5{
+    margin-left:390px;
+}
+
+.modifInput{
+    margin-left:260px;
+}
+
+.botonNuevo{
+    margin-left: 25%;
+}
